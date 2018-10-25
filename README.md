@@ -22,6 +22,7 @@ composer require kaasu/kaasu-rpc-php
 ## Examples
 
 ```php
+require __DIR__.'/vendor/autoload.php';
 use Kaasu\Kaasud;
 
 $config = [
@@ -36,6 +37,7 @@ echo $kaasud->getBlockCount();
 ``` 
 
 ```php
+require __DIR__.'/vendor/autoload.php';
 use Kaasu\KaasuService;
 
 $config = [
@@ -53,7 +55,7 @@ echo $turtleService->getBalance($walletAddress);
 Optionally, you may access details about the response:
 
 ```php
-$response = $turtleService->getBalance($walletAddress);
+$response = $kaasuservice->getBalance($walletAddress);
 
 // The result field from the RPC response
 $response->result();
