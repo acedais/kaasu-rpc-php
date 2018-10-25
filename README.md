@@ -78,7 +78,7 @@ $response->getBody();
 
 ## Docs
 
-Documentation of the Kaasu RPC API and more PHP examples for this package can be found at [api-docs.kaasu.lol](https://api-docs.getkaasu.org).
+Documentation of the Kaasu RPC API and more PHP examples for this package can be found at [api-docs.kaasu.org](http://api-docs.getkaasu.org).
 
 ## License
 
