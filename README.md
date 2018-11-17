@@ -46,8 +46,8 @@ $config = [
     'rpcPassword' => 'test',
 ];
 
-$turtleService = new KaasuService($config);
-echo $turtleService->getBalance($walletAddress);
+$kaasuService = new KaasuService($config);
+echo $kaasuService->getBalance($walletAddress);
 
 > {"id":0,"jsonrpc":"2.0","result":["availableBalance":100,"lockedAmount":50]}
 ``` 
